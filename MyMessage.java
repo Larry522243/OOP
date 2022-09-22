@@ -2,6 +2,7 @@ public class MyMessage {
     public MyMessage() {
     }
 
-    public MyMessage(int num) {
+    public MyMessage(String name) {
+        System.out.printf("%s, HELLO!!!\n", name);
     }
 }
