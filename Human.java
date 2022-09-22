@@ -1,7 +1,7 @@
 public class Human {
-    String name;
-    double height;
-    double weight;
+    private String name;
+    private double height;
+    private double weight;
     private double bmi;
 
     public Human() {
@@ -37,5 +37,33 @@ public class Human {
             message = "太重了";
         }
         return message;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public double getameHeight() {
+        return height;
+    }
+
+    public void setHeight(double height) {
+        if (height < 0) {
+            System.out.println("請設定大於0的值");
+        } else {
+            this.height = height;
+        }
+    }
+
+    public double getWeight() {
+        return weight;
+    }
+
+    public void setWeight(double weight) {
+        this.weight = weight;
     }
 }
