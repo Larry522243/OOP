@@ -9,5 +9,6 @@ public class Main {
 
         human1.hello();
         human2.hello();
+        System.out.println(human1.clacBMI() + "\n" + human1.myHealth());
     }
 }
