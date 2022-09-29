@@ -1,4 +1,4 @@
-public class Main {
+public class Main0922 {
     public static void main(String[] args) {
         Human human1 = new Human();
         human1.setName("Larry");
